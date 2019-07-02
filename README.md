@@ -107,7 +107,7 @@ There's a single endpoint: `api.noopschallenge.com/mashbot`
 }
 ```
 
-The endpoint accepts all of the parameters known to the four combined APIs, and two new parameter:
+The endpoint accepts all of the parameters known to the four combined APIs, and two new parameters:
 
 - **apis** *(optional, string)*: comma separated string with any of the following values: `directbot`, `polybot`, `vexbot`. If `apis` is null, the data set will have `count` of each of the three APIs. If you specify APIs, you will only receive results from those APIs.
 - **randomize** *(optional, numeric)*: 0 or 1. If `1`, results will be randomly distributed across APIs to add up to `count`. If `0`, you will receive the same number of results for each API.
