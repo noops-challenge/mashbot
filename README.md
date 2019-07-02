@@ -151,28 +151,38 @@ You can request up to 1,000 data points from the [Directbot](../directbot), [Pol
 
 There's a single endpoint: `api.noopschallenge.com/mashbot`
 
-`GET https://api.noopschallenge.com/mashbot`
-
 ```
 {
   "colors": [
     { "value": "#E9B104" }
   ],
+  "directbot": [
+    { "direction": "right", "distance": 58, "speed": 7 }
+  ],
+  "polybot": [
+    [
+      { "x": 823, "y": 349 },
+      { "x": 656, "y": 454 },
+      { "x": 768, "y": 253 },
+      { "x": 820, "y": 291 }
+    ]
+  ],
   "vexbot": [
     {
-      "a": { "x": 567, "y": 993 },
-      "b": { "x": 66, "y": 686 },
-      "speed": 33
+      "a": { "x": 65, "y": 197 },
+      "b": { "x": 640, "y": 879 },
+      "speed": 57
     }
   ]
 }
 ```
 
-The endpoint accepts all of the parameters known to the four combined APIs, and one new parameter:
+The endpoint accepts all of the parameters known to the four combined APIs, and two new parameter:
 
-- **apis** *(optional, string)*: comma separated string with any of the following values: `directbot`, `polybot`, `vexbot`. If `apis` is null, the data set will be a random distribution of all three APIs. If you specify APIs, the data set will be distributed randomly between them. If you specify a single API, you will only receive results from that API.
+- **apis** *(optional, string)*: comma separated string with any of the following values: `directbot`, `polybot`, `vexbot`. If `apis` is null, the data set will have `count` of each of the three APIs. If you specify APIs, you will only receive results from those APIs.
+- **randomize** *(option, numeric)*: 0 or 1. If `1`, results will be randomly distributed across APIs to add up to `count`. If `0`, you will receive the same number of results for each API.
 
-Common parameters:
+Common parameters across all APIs:
 
 - **count** *(optional, numeric)*: Between 1 and 1000. Number of objects to return.
 - **width** *(optional, numeric)*: Between 10 and 100,000. Maximum width of returned objects.
