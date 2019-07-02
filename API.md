@@ -1,5 +1,5 @@
 
-## mashbot API
+## Mashbot API
 
 
 ### Get a single vector
@@ -82,7 +82,7 @@
 ```
 
 
-### Get a 10 directions
+### Get a set of 10 directions
 
 `GET https://api.noopschallenge.com/mashbot?apis=directbot&count=10`
 
