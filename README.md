@@ -14,12 +14,12 @@ If you'd like 3 objects from Mashbot, request:
 
 `https://api.noopschallenge.com/mashbot?count=3`
 
-Mashbot will give you 3 objects from the three APIs, and provide 3 colors:
+Mashbot will give you 3 objects from all four APIs:
 
 ```
 
 {
-   "colors":[
+   "hexbot":[
       {
          "value":"#9B963F"
       },
@@ -146,7 +146,7 @@ There's a single endpoint: `api.noopschallenge.com/mashbot`
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#E9B104" }
   ],
   "directbot": [
