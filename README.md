@@ -10,11 +10,11 @@ With the Mashbot API, you can add colors to your polygons, vectors, and directio
 
 Mashbot simplifies working with the graphic APIs (Directbot, Polybot, Vexbot, and Hexbot) by allowing you to request data from any of them via a single API call.
 
-If you'd like 10 objects from Mashbot, request:
+If you'd like 3 objects from Mashbot, request:
 
-`https://api.noopschallenge.com/mashbot?count=10`
+`https://api.noopschallenge.com/mashbot?count=3`
 
-Mashbot will randomly allocate the 10 objects across the three data APIs, and provide 10 colors:
+Mashbot will give you 3 objects from the three APIs, and provide 3 colors:
 
 ```
 
@@ -26,17 +26,11 @@ Mashbot will randomly allocate the 10 objects across the three data APIs, and pr
       {
          "value":"#1F33CC"
       },
-      ...
       {
          "value":"#5AF05D"
       }
    ],
    "directbot":[
-      {
-         "direction":"right",
-         "distance":4,
-         "speed":3
-      },
       {
          "direction":"down",
          "distance":64,
@@ -138,7 +132,6 @@ Mashbot will randomly allocate the 10 objects across the three data APIs, and pr
 You can then render the vectors, polygons, and directions on screen with the color data.
 
 If you'd like to specify which APIs to use, you can do so with the `apis` parameter, which is a comma separated string of `directbot`, `polybot`, and/or `vexbot`.
-
 
 ## ✨ A few ideas
 - Enrich your experiments with the visual challenges with randomized color
