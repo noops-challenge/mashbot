@@ -4,7 +4,7 @@
 
 Mashbot is a very powerful and very mysterious little Noop. Yesterday, Directbot, Hexbot, Polybot, and Vexbot meandered too close to the Mashbot and were sucked into its vortex. The force of Mashbot's core fused the Noops together into a new mega-API.
 
-With the Mashbot API, you can add colors to your polygons, vectors, and directions, and get combined shapes with your requests.
+With the Mashbot API, you can add colors to your polygons, vectors, and directions, and get a mix of object types with your API requests.
 
 ## 🍱 What can you do?
 
@@ -15,7 +15,6 @@ If you'd like 10 objects from Mashbot, request:
 `https://api.noopschallenge.com/mashbot?count=10`
 
 Mashbot will randomly allocate the 10 objects across the three data APIs, and provide 10 colors:
-
 
 ```
 
@@ -151,7 +150,6 @@ If you'd like to specify which APIs to use, you can do so with the `apis` parame
 You can request up to 1,000 data points from the [Directbot](../directbot), [Polybot](../polybot), and [Vexbot](../vexbot) APIs. All requests also return colors from the [Hexbot](../hexbot) API.
 
 There's a single endpoint: `api.noopschallenge.com/mashbot`
-
 
 `GET https://api.noopschallenge.com/mashbot`
 
