@@ -10,7 +10,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#E9B104" }
   ],
   "directbot": [
@@ -61,7 +61,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#6AA818" },
     { "value": "#4F4485" },
     { "value": "#7E1960" },
@@ -293,7 +293,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#B0688F" },
     { "value": "#1BF688" },
     { "value": "#6A2D1F" },
@@ -381,7 +381,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#A6C6BC" }
   ],
   "vexbot": [
@@ -403,7 +403,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#483BF0" }
   ],
   "polybot": [
@@ -443,7 +443,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#814434" }
   ],
   "directbot": [
@@ -461,7 +461,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#4ADEC3" },
     { "value": "#7C081E" },
     { "value": "#2B322C" },
@@ -497,7 +497,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#93F7C3" },
     { "value": "#3A064B" },
     { "value": "#DB69B5" },
@@ -663,7 +663,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     {
       "value": "#D57722", "coordinates": { "x": 0, "y": 6 }
     },
@@ -759,7 +759,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#ED8241" },
     { "value": "#C8CFFE" },
     { "value": "#C2AEEC" },
@@ -853,7 +853,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#6EF614" },
     { "value": "#2B904E" },
     { "value": "#08DABD" },
@@ -893,7 +893,7 @@
 
 ```
 {
-  "colors": [
+  "hexbot": [
     { "value": "#72179E" },
     { "value": "#DC2A35" },
     { "value": "#DF0743" },
