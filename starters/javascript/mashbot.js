@@ -41,14 +41,14 @@ function draw() {
 }
 
 function drawSet(responseJson) {
-  let { colors, polybot, vexbot } = responseJson;
-  let flattenColors = colors.map(function(color) { return color.value});
+  let { hexbot, polybot, vexbot } = responseJson;
+  let colors = hexbot.map(function(color) { return color.value});
 
   polybot.forEach(function(polygon) {
-    drawPolygon(ctx, polygon, flattenColors);
+    drawPolygon(ctx, polygon, colors);
   })
   vexbot.forEach(function(vector) {
-    drawVector(ctx, vector, flattenColors)
+    drawVector(ctx, vector, colors)
   })
 }
 
